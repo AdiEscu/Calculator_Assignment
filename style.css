@@ -1,0 +1,44 @@
+*
+body{
+    
+    min-width: 50%;
+    max-width: 80%;
+}
+
+h1{
+    margin-top: 0;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.calculator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding:5%;
+    text-align:justify;
+    background-color: rgb(150, 187, 150);;
+}
+
+input {
+    align-items:center;
+    block-size: 2em;
+    border-color: black;
+    font-size: 2em;
+}
+
+#opr{
+    block-size: 1.5em;
+    padding: 2px;
+    border-color: black;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+button{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
